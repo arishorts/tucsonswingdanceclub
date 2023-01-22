@@ -1,3 +1,4 @@
-img {
+.navbar-brand {
   filter: invert(100%);
+  color: black;
 }
