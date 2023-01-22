@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="./assets/css/styles.css" />
+  </head>
+  <body>
+    <nav class="navbar navbar-dark bg-dark fixed-top">
+      <div class="container-lg">
+        <!-- https://www.pngitem.com/download/bTJiob_swing-dancing-silhouette-png-swing-dance-silhouette-png/ -->
+        <a class="navbar-brand" href="#"
+          ><img
+            src="./assets/swingimage2.png"
+            alt="Bootstrap"
+            width="30"
+            height="24"
+          />
+          Tucson Swing Dance Club</a
+        >
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="offcanvas"
+          data-bs-target="#offcanvasDarkNavbar"
+          aria-controls="offcanvasDarkNavbar"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div
+          class="offcanvas offcanvas-end text-bg-dark"
+          tabindex="-1"
+          id="offcanvasDarkNavbar"
+          aria-labelledby="offcanvasDarkNavbarLabel"
+        >
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="offcanvasDarkNavbarLabel">Menu</h5>
+            <button
+              type="button"
+              class="btn-close btn-close-white"
+              data-bs-dismiss="offcanvas"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="offcanvas-body">
+            <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#aboutus">About Us</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#thelook">The Look</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#pricing">Pricing</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#contact">Contact Us</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <div id="aboutus" class="container-lg">
+      <div class="row justify-content-center align-items-center">
+        <!-- Content here -->
+        <div class="col-lg-6 text-center text-lg-start p-5">
+          <h1>
+            <div class="display-4 pt-5">What is West Coast Swing?</div>
+            <div class="display-6">from WikiPedia</div>
+          </h1>
+          <p class="my-4 text-muted">
+            West Coast Swing is a partner dance with roots in the Lindy Hop. It
+            is characterized by an elastic look that results from its
+            extension-compression technique of partner connection and is danced
+            primarily in a slotted area on the dance floor.<br /><br />
+            The dance allows for both partners to improvise steps while dancing
+            together, putting West Coast Swing in a short list of dances that
+            emphasize improvisation. <br /><br />Typically the follower walks
+            into new patterns traveling forward on counts “1” and “2” of each
+            basic pattern, rather than rocking back. Traditional figures include
+            6-count and 8-count patterns of one of the four basic varieties: (1)
+            Starter Step, (2) Side Pass, (3) Push Break / Sugar Push, (4) Whip.
+            <br /><br />
+            Alternatively, the basic patterns in West Coast Swing are defined
+            as: Sugar Push; Left Side Pass; Right Side Pass; Tuck Turn; and
+            Whip. Virtually all other moves in West Coast Swing are variations
+            of these basic patterns. The Anchor Step is a common ending pattern
+            of most West Coast Swing figures.
+          </p>
+        </div>
+        <div class="col-lg-6 text-center text-lg-start p-5">
+          <div
+            id="carouselExampleAutoplaying"
+            class="carousel slide"
+            data-bs-ride="carousel"
+          >
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img
+                  src="./assets/PngItem_1669663.png"
+                  class="d-block w-100 rounded img-fluid"
+                  alt="..."
+                />
+              </div>
+              <div class="carousel-item">
+                <img
+                  src="./assets/swingimage.png"
+                  class="d-block w-100 rounded img-fluid"
+                  alt="..."
+                />
+              </div>
+              <div class="carousel-item">
+                <img
+                  src="./assets/swingimage2.png"
+                  class="d-block w-100 rounded img-fluid"
+                  alt="..."
+                />
+              </div>
+            </div>
+            <!-- <button
+              class="carousel-control-prev"
+              type="button"
+              data-bs-target="#carouselExampleAutoplaying"
+              data-bs-slide="prev"
+            >
+              <span
+                class="carousel-control-prev-icon"
+                aria-hidden="true"
+              ></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button
+              class="carousel-control-next"
+              type="button"
+              data-bs-target="#carouselExampleAutoplaying"
+              data-bs-slide="next"
+            >
+              <span
+                class="carousel-control-next-icon"
+                aria-hidden="true"
+              ></span>
+              <span class="visually-hidden">Next</span>
+            </button> -->
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div id="thelook" class="container-fluid">
+      <div class="justify-content-center align-items-center bg-info-subtle text-center pb-5">
+        <div class="display-4 pt-5">What does WCS look like?</div>
+            <div class="display-6">from Youtube</div>
+        <div class="row ">
+          <div class="col-lg-6 g-5 col-12">
+            <div class="embed-responsive embed-responsive-21by9">
+              <iframe width="560" height="315" class="embed-responsive-item" src="https://www.youtube.com/embed/xqEaHw-1_Fo"></iframe>
+          </div>
+          </div>
+          <div class="col-lg-6 g-5 col-12">
+            <div class="embed-responsive embed-responsive-21by9">
+                <iframe width="560" height="315" class="embed-responsive-item" src="https://www.youtube.com/embed/v64KOxKVLVg"></iframe>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-6 g-5 col-12">
+            <div class="embed-responsive embed-responsive-21by9">
+                <iframe width="560" height="315" class="embed-responsive-item" src="https://www.youtube.com/embed/v64KOxKVLVg"></iframe>
+            </div>
+          </div>
+          <div class="col-lg-6 g-5 col-12">
+            <div class="embed-responsive embed-responsive-21by9">
+                <iframe width="560" height="315" class="embed-responsive-item" src="https://www.youtube.com/embed/v64KOxKVLVg"></iframe>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <section id="pricing" class="bg-light pt-5">
+      <div class="container-lg">
+        <div class="text-center">
+          <h2>Pricing Plan</h2>
+          <p class="lead text-muted">Choose a pricing plan to suit you.</p>
+        </div>
+
+        <div class="row my-5 align-items-center justify-content-center g-3">
+          <div class="col-8 col-lg-4 col-xl-3">
+            <div class="card border-0">
+              <div class="card-body text-center py-4">
+                <h4 class="card-title">Social Dancer</h4>
+                <p class="lead card-subtitle">pay per class</p>
+                <p class="display-5 my-4 text-primary fw-bold">$10.00</p>
+                <p class="card-text my-5 text-muted d-none d-lg-block">
+                  No additional fees and no entrance to club meetings
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-9 col-lg-4">
+            <div class="card border-primary border-2">
+              <div class="card-header text-center text-primary">
+                Most Popular
+              </div>
+              <div class="card-body text-center py-5">
+                <h4 class="card-title">Club member</h4>
+                <p class="lead card-subtitle">reduced social dance pricing</p>
+                <p class="display-4 my-4 text-primary fw-bold">$25.00</p>
+                <p class="card-text mx-5 text-muted d-none d-lg-block">
+                  classes remain $7.00 for entry and dance
+                </p>
+              </div>
+            </div>
+          </div>
+
+        
+            <div class="col-8 col-lg-4 col-xl-3">
+              <div class="card border-0">
+                <div class="card-body text-center py-4">
+                  <h4 class="card-title">Student Dancer</h4>
+                  <p class="lead card-subtitle">pay per class</p>
+                  <p class="display-5 my-4 text-primary fw-bold">$9.00</p>
+                  <p class="card-text my-5 text-muted d-none d-lg-block">
+                    Must show student ID at entrance
+                  </p>
+                </div>
+              </div>
+            </div>
+
+        </div>
+      </div>
+    </section>
+
+    <div id="contact" class="container-fluid bg-info-subtle pt-5 pb-5">
+        <section class="row justify-content-center my-4">
+            <div class="col-12 col-sm-6 col-md-4">
+              <address>
+                <h2>Tucson Swing Dance Club</h2>
+                <h3>Dream Dance Studio</h2>
+                <h5>
+                  Call us at <a href="tel:520.203.8044"></a>(520) 203-8044</a>
+                </h5>
+      
+                <h5>
+                  Email us at <a href="mailto:board@tsdc.net">board@tsdc.net</a>
+                </h5>
+      
+              </address>
+            </div>
+            <div class="col-12 col-sm-6 col-md-4">
+              <h2>Leave a Comment</h2>
+              <form>
+                <div class="form-group p-2">
+                  <label for="name-input">Your name:</label>
+                  <input type="text" class="form-control" id="name-input" placeholder="Leave your name" />
+                </div>
+                <div class="form-group p-2">
+                  <label for="comment-input">Your message:</label>
+                  <textarea name="comment" id="comment-input" class="form-control"></textarea>
+                </div>
+                <button class="btn btn-success m-2">Submit Message.</button>
+              </form>
+            </div>
+          </section>
+    </div>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
